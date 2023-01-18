@@ -19,7 +19,7 @@ int uni(int i,int j){
 
 void main()
 {
-	printf("Kruskal's Algorithm");
+	printf("Kruskal's Algorithm for directed and negative valued graph");
 	printf("\nEnter the no. of vertices:");
 	scanf("%d",&n);
 	printf("\nEnter the cost adjacency matrix:\n");
@@ -30,7 +30,7 @@ void main()
 			cost[i][j]=999;
 		}
 	}
-	printf("\nThe edges of Minimum Spanning Tree are\n");
+	printf("\nThe edges of Minimum Spanning Tree:\n");
 	while(ne < n)
 	{
 		for(i=1,min=999;i<=n;i++){
